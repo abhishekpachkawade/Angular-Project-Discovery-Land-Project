@@ -1,0 +1,124 @@
+body,html {
+    height: 100vh;
+    margin: 0;
+}
+.header-containers{
+    height: 100vh;
+    width: 100vw;
+}
+
+.nav-bar{
+    position: relative;
+    bottom:95%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+    
+
+.nav-items {    
+    display: flex;
+    flex-direction: row;   
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+.nav-link {
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;   
+    flex-wrap: wrap;
+
+}
+.background-video {
+    width: 101%;
+    height: 100%;
+    object-fit: cover;
+    margin: -1%;
+
+}
+
+  .div1 {
+      height:100%;
+      width:100%;
+      background: url(../../../assets/bg_img.jpg) no-repeat 50%/cover;
+    
+  }
+  .div2 {
+      height:100%;
+      width:100%;
+      background: url(../../../assets/bg_img.jpg) no-repeat 50%/cover;
+  
+  }
+  
+  .heading{
+      padding: 50xpx;
+      border: 2px solid red;
+      font-size: 50px;
+      position: relative;
+      display: inline-block;
+      z-index: 1;
+      background-color: yellow;
+  }
+  
+  .para {
+      line-height: 2;
+      font-size: 0.9rem;
+  }
+  
+  .headingpage1{
+      font-family: gt-sectra;
+      font-weight: 200;
+      font-size: 40px;
+      padding-top: 150px;
+      padding-left: 150px;
+  }
+  .headingpage2{
+      font-family: gotham;
+      font-weight: 100;
+      font-size: 40px;
+      padding-left: 140px;
+      padding-bottom: 35px;
+  }
+  .paragraph{
+      display: block;
+      text-align: start;
+      position: relative;
+      opacity: 1;
+      padding-left: 150px;
+      font-size: 1.2rem;
+      font-family: messina-sans;
+  }
+  .image1{
+     
+      height: 60%;
+      width: 40%;
+      padding-left: 150px;
+      padding-bottom: 50px;
+      display: inline-block;
+      position: relative;
+  }
+  .image2{
+  
+      height: 66%;
+      width: 36%;
+      padding-top: 140px ;
+      padding-left: 700px;
+  }
+  
+  .second{
+      display: inline-block;
+      position: absolute;
+  
+  }
+  .para2{
+      padding-bottom: 100px;
+  }
+
+
+
+
+
+  
